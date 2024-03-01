@@ -12,7 +12,7 @@ function Login(){
   const [errorMessage, setErrorMessage] = useState('');
   const loginhandle =() =>{
     if ((name === 'tejasri' && password === '1234') || (name === 'janaki' && password === '1024')) {
-        navigate('/Admin');
+        navigate('/AdminNavbar');
     } else {
         setErrorMessage("Invalid username or password");
     }

@@ -13,6 +13,9 @@ import Da from './Components/Da/Da'
 import Home from './Components/Home/Home'
 import Hra from './Components/Hra/Hra'
 import Employee from './Components/Employee/Employee';
+import AdminNavbar from './Components/Admin-navbar/Admin-navbar';
+import Salary from './Components/Salary/Salary'
+
 
 function App() {
   return (
@@ -31,6 +34,8 @@ function App() {
     <Route path='/Register' element={<Register/>}/>
     <Route path='/Home' element={<Home/>}/>
     <Route path='/Employee' element={<Employee/>}/>
+    <Route path='/AdminNavbar' element={<AdminNavbar/>}/>
+    <Route path='/Salary' element={<Salary/>}/>
     </Routes>
     
   

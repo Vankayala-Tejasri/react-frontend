@@ -9,7 +9,7 @@ import Employee from '../Employee/Employee';
 import Crud from '../Crud/Crud';
 import Home from '../Home/Home';
 import Register from '../Register/Register'
-import Signup from '../Signup/Signup'
+import Start from '../Start/Start'
 
 function Navbar() {
   const [showEmployeeDropdown, setShowEmployeeDropdown] = useState(false);
@@ -60,12 +60,11 @@ function Navbar() {
               </div>
             </li>
             
-            {/* <li>
-              <Link className="name" to="/Crud">
-                PF
+            <li>
+              <Link className="name" to="/">
+                Logout
               </Link>
-            </li> */}
-            
+            </li> 
           </ul>
         </nav>
       </div>
@@ -75,7 +74,7 @@ function Navbar() {
         <Route path="/Hra" element={<Hra />} />
         <Route path="/Da" element={<Da />} />
         <Route path="/Employee" element={<Employee />} />
-        <Route path="/Crud" element={<Crud />} />
+        
         
       </Routes>
     </>
